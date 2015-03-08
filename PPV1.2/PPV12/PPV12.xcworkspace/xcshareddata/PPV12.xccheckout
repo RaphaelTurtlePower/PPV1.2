@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A998D5F4-45FA-45FF-BF73-137E5162B166</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PPV12</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BE5E83283161FC768704F662D3E72C7AB54BF587</key>
+		<string>github.com:RaphaelTurtlePower/PPV1.2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PPV1.2/PPV12/PPV12.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BE5E83283161FC768704F662D3E72C7AB54BF587</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:RaphaelTurtlePower/PPV1.2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BE5E83283161FC768704F662D3E72C7AB54BF587</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BE5E83283161FC768704F662D3E72C7AB54BF587</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PPV1.2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

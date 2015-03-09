@@ -14,9 +14,12 @@
 		0453A0AB1AACF86F00F692F9 /* PPV12Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453A0AA1AACF86F00F692F9 /* PPV12Tests.m */; };
 		0453A0B71AACF90A00F692F9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453A0B51AACF90A00F692F9 /* LoginViewController.m */; };
 		0453A0B81AACF90A00F692F9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0453A0B61AACF90A00F692F9 /* LoginViewController.xib */; };
-		048ED4741AACFFB600D2E59E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 048ED4731AACFFB600D2E59E /* User.m */; };
-		048ED4771AACFFDD00D2E59E /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 048ED4761AACFFDD00D2E59E /* Transaction.m */; };
 		048ED4831AAD1A4200D2E59E /* UserModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 048ED4821AAD1A4200D2E59E /* UserModelTest.m */; };
+		048ED4891AAD4DF700D2E59E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048ED4871AAD4DF700D2E59E /* Model.xcdatamodeld */; };
+		048ED48B1AAD539700D2E59E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048ED48A1AAD539700D2E59E /* CoreData.framework */; };
+		04A9693C1AADBAD80070A862 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9693B1AADBAD80070A862 /* User.m */; };
+		04A9693F1AADBAD80070A862 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9693E1AADBAD80070A862 /* Transaction.m */; };
+		04A969781AADC5C70070A862 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A969771AADC5C70070A862 /* CoreDataHelper.m */; };
 		FBD77DFA5CE5184B63AC03FF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 782F2EAA09FE5F5500556F53 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,11 +47,15 @@
 		0453A0B41AACF90A00F692F9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = PPV12/LoginViewController.h; sourceTree = "<group>"; };
 		0453A0B51AACF90A00F692F9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = PPV12/LoginViewController.m; sourceTree = "<group>"; };
 		0453A0B61AACF90A00F692F9 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = PPV12/LoginViewController.xib; sourceTree = "<group>"; };
-		048ED4721AACFFB600D2E59E /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = PPV12/Models/User.h; sourceTree = "<group>"; };
-		048ED4731AACFFB600D2E59E /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = PPV12/Models/User.m; sourceTree = "<group>"; };
-		048ED4751AACFFDD00D2E59E /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transaction.h; path = PPV12/Models/Transaction.h; sourceTree = "<group>"; };
-		048ED4761AACFFDD00D2E59E /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transaction.m; path = PPV12/Models/Transaction.m; sourceTree = "<group>"; };
-		048ED4821AAD1A4200D2E59E /* UserModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserModelTest.m; path = PPV12Tests/UserModelTest.m; sourceTree = "<group>"; };
+		048ED4821AAD1A4200D2E59E /* UserModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModelTest.m; sourceTree = "<group>"; };
+		048ED4881AAD4DF700D2E59E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		048ED48A1AAD539700D2E59E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04A9693A1AADBAD80070A862 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = PPV12/Models/User.h; sourceTree = "<group>"; };
+		04A9693B1AADBAD80070A862 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = PPV12/Models/User.m; sourceTree = "<group>"; };
+		04A9693D1AADBAD80070A862 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transaction.h; path = PPV12/Models/Transaction.h; sourceTree = "<group>"; };
+		04A9693E1AADBAD80070A862 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transaction.m; path = PPV12/Models/Transaction.m; sourceTree = "<group>"; };
+		04A969761AADC5C70070A862 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataHelper.h; path = PPV12/Helpers/CoreDataHelper.h; sourceTree = "<group>"; };
+		04A969771AADC5C70070A862 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataHelper.m; path = PPV12/Helpers/CoreDataHelper.m; sourceTree = "<group>"; };
 		782F2EAA09FE5F5500556F53 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F9D604F0E858AB94263D40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E33F4E34AC0416F15641FA3C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -59,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048ED48B1AAD539700D2E59E /* CoreData.framework in Frameworks */,
 				FBD77DFA5CE5184B63AC03FF /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,7 +84,8 @@
 		0453A0821AACF86F00F692F9 = {
 			isa = PBXGroup;
 			children = (
-				048ED4821AAD1A4200D2E59E /* UserModelTest.m */,
+				048ED4871AAD4DF700D2E59E /* Model.xcdatamodeld */,
+				04A969751AADC55F0070A862 /* Helpers */,
 				048ED4711AACFCA600D2E59E /* Models */,
 				0453A0B41AACF90A00F692F9 /* LoginViewController.h */,
 				0453A0B51AACF90A00F692F9 /* LoginViewController.m */,
@@ -122,6 +131,7 @@
 		0453A0A71AACF86F00F692F9 /* PPV12Tests */ = {
 			isa = PBXGroup;
 			children = (
+				048ED4821AAD1A4200D2E59E /* UserModelTest.m */,
 				0453A0AA1AACF86F00F692F9 /* PPV12Tests.m */,
 				0453A0A81AACF86F00F692F9 /* Supporting Files */,
 			);
@@ -139,12 +149,21 @@
 		048ED4711AACFCA600D2E59E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				048ED4721AACFFB600D2E59E /* User.h */,
-				048ED4731AACFFB600D2E59E /* User.m */,
-				048ED4751AACFFDD00D2E59E /* Transaction.h */,
-				048ED4761AACFFDD00D2E59E /* Transaction.m */,
+				04A9693D1AADBAD80070A862 /* Transaction.h */,
+				04A9693E1AADBAD80070A862 /* Transaction.m */,
+				04A9693A1AADBAD80070A862 /* User.h */,
+				04A9693B1AADBAD80070A862 /* User.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		04A969751AADC55F0070A862 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				04A969761AADC5C70070A862 /* CoreDataHelper.h */,
+				04A969771AADC5C70070A862 /* CoreDataHelper.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		44A4FD99A2E095D67A38B73C /* Pods */ = {
@@ -159,6 +178,7 @@
 		87775C7D1BCE771F62E39F43 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				048ED48A1AAD539700D2E59E /* CoreData.framework */,
 				782F2EAA09FE5F5500556F53 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -299,11 +319,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048ED4741AACFFB600D2E59E /* User.m in Sources */,
+				04A9693F1AADBAD80070A862 /* Transaction.m in Sources */,
 				0453A0941AACF86F00F692F9 /* AppDelegate.m in Sources */,
 				0453A0911AACF86F00F692F9 /* main.m in Sources */,
-				048ED4771AACFFDD00D2E59E /* Transaction.m in Sources */,
+				04A9693C1AADBAD80070A862 /* User.m in Sources */,
 				0453A0B71AACF90A00F692F9 /* LoginViewController.m in Sources */,
+				048ED4891AAD4DF700D2E59E /* Model.xcdatamodeld in Sources */,
+				04A969781AADC5C70070A862 /* CoreDataHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +462,7 @@
 		};
 		0453A0B21AACF86F00F692F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F9D604F0E858AB94263D40 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -459,6 +482,7 @@
 		};
 		0453A0B31AACF86F00F692F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F9D604F0E858AB94263D40 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -503,6 +527,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		048ED4871AAD4DF700D2E59E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				048ED4881AAD4DF700D2E59E /* Model.xcdatamodel */,
+			);
+			currentVersion = 048ED4881AAD4DF700D2E59E /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0453A0831AACF86F00F692F9 /* Project object */;
 }

@@ -22,7 +22,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PPV12/Models/User.h"
@@ -31,6 +31,244 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "10"
             endingLineNumber = "10">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PPV12Tests/UserModelTest.m"
+            timestampString = "447597661.385031"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "-testExample"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PPV12Tests/UserModelTest.m"
+            timestampString = "447597661.385031"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "-testExample"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UserModelTest testExample]"
+                  moduleName = "PPV12Tests"
+                  urlString = "file:///Users/cmamuad/Projects/PPV1.2/PPV12/PPV12Tests/UserModelTest.m"
+                  timestampString = "447597273.814987"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "684">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UserModelTest testExample]"
+                  moduleName = "PPV12Tests"
+                  urlString = "file:///Users/cmamuad/Projects/PPV1.2/PPV12/PPV12Tests/UserModelTest.m"
+                  timestampString = "447597273.815189"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1763">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UserModelTest testExample]"
+                  moduleName = "PPV12Tests"
+                  urlString = "file:///Users/cmamuad/Projects/PPV1.2/PPV12/PPV12Tests/UserModelTest.m"
+                  timestampString = "447597273.815372"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1891">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UserModelTest testExample]"
+                  moduleName = "PPV12Tests"
+                  urlString = "file:///Users/cmamuad/Projects/PPV1.2/PPV12/PPV12Tests/UserModelTest.m"
+                  timestampString = "447597273.81567"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "2390">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PPV12Tests/UserModelTest.m"
+            timestampString = "447597661.385031"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "-testExample"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UserModelTest testExample]"
+                  moduleName = "PPV12Tests"
+                  urlString = "file:///Users/cmamuad/Projects/PPV1.2/PPV12/PPV12Tests/UserModelTest.m"
+                  timestampString = "447597273.816638"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "1252">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UserModelTest testExample]"
+                  moduleName = "PPV12Tests"
+                  urlString = "file:///Users/cmamuad/Projects/PPV1.2/PPV12/PPV12Tests/UserModelTest.m"
+                  timestampString = "447597273.816795"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "3203">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UserModelTest testExample]"
+                  moduleName = "PPV12Tests"
+                  urlString = "file:///Users/cmamuad/Projects/PPV1.2/PPV12/PPV12Tests/UserModelTest.m"
+                  timestampString = "447597273.817046"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "3337">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UserModelTest testExample]"
+                  moduleName = "PPV12Tests"
+                  urlString = "file:///Users/cmamuad/Projects/PPV1.2/PPV12/PPV12Tests/UserModelTest.m"
+                  timestampString = "447597273.81723"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "3836">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PPV12Tests/UserModelTest.m"
+            timestampString = "447597661.385031"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "-testExample"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UserModelTest testExample]"
+                  moduleName = "PPV12Tests"
+                  urlString = "file:///Users/cmamuad/Projects/PPV1.2/PPV12/PPV12Tests/UserModelTest.m"
+                  timestampString = "447597278.534727"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "2856">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UserModelTest testExample]"
+                  moduleName = "PPV12Tests"
+                  urlString = "file:///Users/cmamuad/Projects/PPV1.2/PPV12/PPV12Tests/UserModelTest.m"
+                  timestampString = "447597278.534909"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "4258">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UserModelTest testExample]"
+                  moduleName = "PPV12Tests"
+                  urlString = "file:///Users/cmamuad/Projects/PPV1.2/PPV12/PPV12Tests/UserModelTest.m"
+                  timestampString = "447597278.53506"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "4394">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UserModelTest testExample]"
+                  moduleName = "PPV12Tests"
+                  urlString = "file:///Users/cmamuad/Projects/PPV1.2/PPV12/PPV12Tests/UserModelTest.m"
+                  timestampString = "447597278.535194"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "4528">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

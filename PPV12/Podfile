@@ -2,8 +2,6 @@
 platform :ios, '8.0'
 pod "AFNetworking"
 pod "SVPullToRefresh"
-pod "Realm"
-
 
 target 'PPV12' do
 

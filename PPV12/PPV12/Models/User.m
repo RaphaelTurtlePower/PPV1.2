@@ -2,40 +2,26 @@
 //  User.m
 //  PPV12
 //
-//  Created by Mamuad, Christian on 3/8/15.
+//  Created by Mamuad, Christian on 3/9/15.
 //  Copyright (c) 2015 Mamuad, Christian. All rights reserved.
 //
 
 #import "User.h"
+#import "Transaction.h"
+
 
 @implementation User
 
-+ (NSString*) primaryKey{
-    return @"id";
-}
-
-
--  (NSArray*) transactionsSent{
-    return [self linkingObjectsOfClass:@"Transaction" forProperty:@"sender"];
-}
-
-- (NSArray*) transactionsReceived {
-    return [self linkingObjectsOfClass:@"Transaction" forProperty:@"receiver"];
-}
-
-
-+(void) save: (User *) obj {
-    RLMRealm* realm = [RLMRealm defaultRealm];
-    [realm beginWriteTransaction];
-    [User createOrUpdateInRealm:realm withObject:obj];
-    [realm commitWriteTransaction];
-}
-
-+(void) delete: (User *) obj{
-    RLMRealm* realm = [RLMRealm defaultRealm];
-    [realm beginWriteTransaction];
-    [realm deleteObject: obj];
-    [realm commitWriteTransaction];
-}
+@dynamic backgroundImageUrl;
+@dynamic displayName;
+@dynamic emailAddress;
+@dynamic facebookId;
+@dynamic firstName;
+@dynamic lastName;
+@dynamic phoneNumber;
+@dynamic profileImageUrl;
+@dynamic venmoId;
+@dynamic transactionsReceived;
+@dynamic transactionsSent;
 
 @end

@@ -34,8 +34,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-    [super viewDidLoad];
     
     [self.menuView addSubview:self.menuViewController.view];
     [self addChildViewController:self.menuViewController];
